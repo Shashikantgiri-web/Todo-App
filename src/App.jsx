@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <div className='w-[100vw] h-[100vh] bg-purple-900 flex flex-col justify-center items-center gap-[10px]'>
+      <div className='w-screen h-screen bg-purple-900 flex flex-col justify-center items-center gap-2.5'>
         {/* <Header /> */}
         <RouterProvider router={router}/>
       </div>
